@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPM Higher Secondary School, Kottukkara, Kondotty</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="icon" href="https://ppmhsskottukkara.com/wp-content/uploads/2018/05/cropped-SCHOOL_EMBLEM-32x32.jpg" sizes="32x32" />
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body onload="loaderFunction()" style="margin:0;">
+    
+    <!-- loader -->
+    <div id="loader"></div>
+    <!-- loader ends -->
+
+    <div style="display:none;" id="fullSection" class="animate-bottom"> 
+        <!-- Header -->
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light p-5">
+                <!-- Hamburger Icon -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="main_nav">
+                
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"> <a class="nav-link font-weight-bold blue-text" href="index.html"> HOME </a> </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold blue-text dropdown-toggle" href="#" data-toggle="dropdown">  ABOUT US  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#about"> History </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#mission-vission"> Vision and Mission </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#testimonial"> Messages </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="news-events.html"> News and Events </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> High School &raquo </a>
+                                    <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item font-weight-bold blue-text" href=""> Facilities</a></li>
+                                    <li><a class="dropdown-item font-weight-bold blue-text" href=""> Faculties</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Higher Secondary &raquo </a>
+                                    <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item font-weight-bold blue-text" href=""> Facilities</a></li>
+                                    <li><a class="dropdown-item font-weight-bold blue-text" href=""> Faculties</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> PTA </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="https://ppmhsskottukkara.com/alumni-registration/"> Alumni </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold blue-text dropdown-toggle" href="#" data-toggle="dropdown">  ACADEMICS  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Academic Calendar </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Achievements </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Admission &raquo </a>
+                                    <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item font-weight-bold blue-text" href=""> High School</a></li>
+                                    <li><a class="dropdown-item font-weight-bold blue-text" href=""> Higher Secondary</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Annual Holidays</a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#quick-links"> Quick Links</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold blue-text dropdown-toggle" href="#" data-toggle="dropdown">  ACTIVITIES  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Arts </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Sports </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Clubs </a>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"> <a class="nav-link font-weight-bold blue-text" href="gallery.html"> GALLERY </a></li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link font-weight-bold blue-text dropdown-toggle" href="#" data-toggle="dropdown">  DOWNLOADS  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Circulars and GOs </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Exam Timetables </a></li>
+                                <li><a class="dropdown-item font-weight-bold blue-text" href="#"> Forms </a>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item"> <a class="nav-link font-weight-bold blue-text" href="#contact"> CONTACT US </a> </li>
+
+                    </ul>
+                
+                </div> <!-- navbar-collapse ends -->
+
+                <!-- School Logo -->
+                <a class="navbar-brand mx-3 text-dark logo" href="#"><h1><img src="images/ppmhss-logo.png" alt="logo" class="img-fluid w-100"></h1></a>
+
+            </nav>
+        </header>
+        <!-- Header ends -->
+
+        <!--Intro Section -->
+        <section id="intro" class="bg-blue">
+            <div class="jumbotron text-center">
+                <h1>PPMHSS Kottukkara</h1>
+                <p class="lead">PPM Higher Secondary School was established in 1976. It is run by Nediyiruppu Muslim Educational Association set up for the upliftment of the backward in Educational, Cultural and Social Spheres. The Association is an organization registered under Societies Registration Act 1860. (No S.22/75).</p>
+                <hr class="my-4">
+                <p class="lead">
+                    <a class="btn btn-green btn-lg" href="#" role="button">Learn more</a>
+                </p>
+            </div>
+        </section>
+        <!-- Intro Section ends -->
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h2 class="mb-4">About Us</h2>
+                        <h5 class="mb-4">PPM Higher Secondary School was established in 1976. It is run by Nediyiruppu Muslim Educational Association set up for the upliftment of the backward in Educational, Cultural and Social Spheres. The Association is an organization registered under Societies Registration Act 1860. (No S.22/75).</h5>
+                        <p class="mb-4">PPM Higher Secondary School is situated 2 KM away from Kondotty and is at stones throw distance away from the National Highway 966 of Kozhikkode-Palakkad. In its germinal stage it had three divisions with 112 strundents. In course of years it has surprisingly sprawled to cater the educational needs of 4200 students with 71 divisions. The Higher Secondary section was started in the year 2000-2001 with three batches, ie. Two Science (Biology)batches and one Humanities (Statistics) batch in the year 2002-2003. It was broadended its strength with three additional bataches, ie, Computer Science, Sociology and Commerce(Computer Application) respectively. In 2011-2012 it broadened again with two additional batches,ie, One Science (Biology), Commerce (Computer Application). At HigherScondary level there are thousand students. The school has coveted track records both at Curricular and Co-curricular level to testify its name and fame.<br><br>PPM Higher Secondary school has been declared as Minority Education Institution with the meaning of section 2(B) of the national Commission For Minority Education Act 2004, covered under article 30 of the constitution of India as per F 2186 of 2010-50594 dated 22/02/2011.</p>
+                        <a class="btn btn-green btn-lg" href="#contact" role="button">Get in Touch</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <!-- <span class="glyphicon glyphicon-signal logo"></span> -->
+                        <img src="images/school-emblem-292x300.jpg" alt="about-logo" class="img-fluid about-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section ends -->
+
+        <!-- photo slider Section -->
+
+        <section id="photos-slider" class="bg-black p-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active h-400">
+                                    <img class="d-block img-fluid image" src="images/ppmhss-front.jpeg" alt="First slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="images/ppmhs-front.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="images/assembly-hss.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="images/assembly-hs.jpg" alt="Fourth slide">
+                                </div>
+                                <div class="carousel-item h-400">
+                                    <img class="d-block img-fluid image" src="images/ppmhss-winners.jpg" alt="Fifth slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- photo slider section ends -->
+
+        <!-- Mission-Vission Section -->
+        <section id="mission-vission">
+            <div class="container-fluid bg-grey">
+                <div class="row">
+                    <div class="col-sm-6 imgCont">
+                        <img src="images/ppmhss-front.jpeg" alt="vision-logo" class="img-fluid vision-logo img-thumbnail">
+                    </div>
+                    <div class="col-sm-6">
+                        <h2 class="mb-4 my-3">Our Values</h2>
+                        <p class="mb-4"><strong>MISSION:</strong><br>“To promote value-based education, helping the students to discover their aptitudes and to realize their potential by boosting their self-confidence and creative-thinking skills.To provide an inclusive and harmonious educational atmosphere for all students of all communities and social strata.To inculcate excellent moral and ethical values in adolescents.”</p>
+                        <p><strong>VISION:</strong><br>“Our vision is to empower students to acquire, demonstrate, articulate and value knowledge and skills that will support them, as life-long learners, to participate in and contribute to the global world and practise the core values of the school: respect, tolerance & inclusion, and excellence.”</p>    
+                    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Mission-Vission Section ends -->
+
+        <!-- Reference Cards Section -->
+        <section id="quick-links" class="p-5">
+            <h2 class="mx-auto d-table mb-5">Quick Links</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-primary mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                            <a href="https://ppmhsskottukkara.com/db/mainlogin.php" class="card-link font">Admission Registration</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-primary mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                                <a href="https://ppmhsskottukkara.com/db/mainlogin.php" class="card-link">Teachers Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-primary mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                                <a href="https://ppmhsskottukkara.com/db/student.php" class="card-link">Students Corner</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-primary mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                                <a href="https://ppmhsskottukkara.com/db/parentlogin1.php" class="card-link">Parents Login</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-primary mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                                <a href="https://www.spark.gov.in/webspark/" class="card-link">Spark</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-2">
+                        <div class="card border border-primary mx-auto" style="width: 100%;">
+                            <div class="card-body">
+                                <a href="#" class="card-link">Circulars</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Reference Cards end -->
+
+        <!-- Testimonials Section -->
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title">
+                            <h2>What people are saying</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Slide Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="1"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="2"></li>
+                                <li data-target="#testimonialCarousel" data-slide-to="3"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <!-- Slide 1 -->
+                                <div class="carousel-item active">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="images/manager.jpg" alt="Testimonial Slider" /></div>
+                                        <p><i>Our school started in 1976 by handful educational promoters under the banner of Nediyiruppu Muslim Educational Association to uplift socially, educationally backward communities in Nediyiruppu Panchayat. Now the school is nearing it’s goal day by day. School is celebrating it’s Ruby Jubilee (17-18). The ultimate aim of the association is to create a new generation having high ethical values.</i></p>
+                                        <h3><span>-</span> Manager's message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="images/secretary.jpeg" alt="Testimonial Slider" /></div>
+                                        <p><i>PPMHSS Kottuakkara, run by Nediyiruppu MEA has been in the services of Educational, Social and Cultural upliftment of a backward area of the state. Among 5100 students more than 50% cover girls and a large number of SC students as two large SC colonies situated in the area. The school is well-known in the State and National Level as the students spread throughout India.</i></p>
+                                        <h3><span>-</span> Secretary's And Treasurer's Message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 3 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="images/principal-2.png" alt="Testimonial Slider" /></div>
+                                        <p><i>PPMHSS was established in 1976 run by Nediyiruppu Muslim Educational Association set for the upliftment of the backward in Educational, Cultural and Social Sphere.In its germinal stage it had 3 division with 112. In course of years it has surprisingly sprawled to cater the educational need of 4200 students with 71 division.</i></p>
+                                        <h3><span>-</span> Principal's Message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="carousel-item">
+                                    <div class="carousel-content">
+                                        <div class="client-img"><img src="images/head-master-2.png" alt="Testimonial Slider" /></div>
+                                        <p><i>PPMHSS is aimed for the upliftment of educational backward and marginalized community. It is now broadener it capacity having 3000 students and 160 staff members. The school is enriched with ifs fame scoring high academic and non academic accomplishments. Your future journey will be designed based on the path you choose at present. Best wishes for a successful and flourishing future!</i></p>
+                                        <h3><span>-</span> Head Master's Message <span>-</span></h3>
+                                    </div>
+                                </div>
+                                <!-- Slider pre and next arrow -->
+                                <a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
+                                    <i class="fas fa-chevron-left"></i>
+                                </a>
+                                <a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
+                                    <i class="fas fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimonials Section ends -->
+
+        <!-- Carousel Gallery -->
+        <section id="carousel-gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">40<sup>th</sup> Anniversary</h2>
+                        <p class="text-center">The best way to experience our wide collection of sweet memories is to visit our campus and be a part of it.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Carousel Wrapper-->
+            <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
+                    
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+            
+                <!--First slide-->
+                <div class="carousel-item active">
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-1.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-2.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-3.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-4.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                </div>
+                <!--/.First slide-->
+            
+                <!--Second slide-->
+                <div class="carousel-item">
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-5.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-6.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-7.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-8.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                </div>
+                <!--/.Second slide-->
+            
+                <!--Third slide-->
+                <div class="carousel-item">
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-9.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-10.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-11.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                    <div class="col-md-3 mb-3">
+                    <div class="card shadow">
+                        <img class="img-fluid" src="images/ann40-12.jpg"
+                        alt="Card image cap">
+                    </div>
+                    </div>
+            
+                </div>
+                <!--/.Third slide-->
+            
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+
+                <div class="controls-top text-center mt-2">
+                    <a class="black-text" href="#multi-item-example" data-slide="prev"><i class="fas fa-angle-left fa-3x pr-3" style="font-size: 30px;"></i></a>
+                    <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3" style="font-size: 30px;"></i></a>
+                </div>
+                <!--/.Controls-->
+            
+            </div>
+            <!--/.Carousel Wrapper-->
+        </section>
+        <!-- Carousel Gallery end-->
+
+        <!-- Counts Section -->
+        <section class="counts-section mb-1">
+            
+            <div class="bg-blue text-white py-5">
+                <div class="container">
+                    <div class="row">   
+                        <div class="col">
+                            <h2 class="text-center">Head Count</h2>
+                        </div>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">6000</h2>
+                            <h6>Students</h6>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">455</h2>
+                            <h6>Teachers</h6>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">40</h2>
+                            <h6>Other Staffs</h6>
+                        </div>
+                        <div class="col-lg-3 col-6 text-center">
+                            <h2 data-toggle="counterUp">25</h2>
+                            <h6>Clubs</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- count section ends -->
+
+        <!-- contact section -->
+        <section id="contact" class="bg-black my-1 p-3">
+            <div class="container contact-container bg-grey">
+                <div class="d-flex justify-content-center pt-5">
+                    <h2 class="font-weight-bold">Get in touch!</h2>
+                </div>
+                <div class="d-flex justify-content-center">Need an expert? you are more than welcomed to leave your contact info and we will be in touch shortly</div>
+                <div class="d-flex flex-row justify-content-center">
+                    <form class="w-xl-50 w-lg-75" name="submit-to-google-sheet">
+                        <div class="container border">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group"> <label for="name">Name</label>
+                                        <div class="input-field"> <span class="fa fa-user p-2"></span> <input type="text" name="name" required> </div>
+                                    </div>
+                                    <div class="form-group"> <label for="name">Mail</label>
+                                        <div class="input-field"> <span class="fa fa-envelope p-2"></span> <input type="email" name="email" required> </div>
+                                    </div>
+                                    <div class="form-group"> <label for="name">Phone</label>
+                                        <div class="input-field"> <span class="fa fa-mobile p-2"></span> <input type="tel" name="phone" required> </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group"> <label for="msg">Message</label>
+                                        <div class="input-field bg-light"> <textarea name="message" id="msg" cols="10" rows="9" class="form-control bg-light" placeholder="Your Message"></textarea> </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-row justify-content-center w-100"> <input type="submit" value="Send Message" class="btn btn-green"> </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- contact section ends -->
+
+        <!-- Footer Section -->
+
+        <footer class="text-center text-lg-start bg-black text-muted">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+        
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-facebook-f text-secondary"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-twitter text-secondary"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-google text-secondary"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                <i class="fab fa-instagram text-secondary"></i>
+                </a>
+            </div>
+            <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+        
+            <!-- Section: Links  -->
+            <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    VISIT US AT
+                    </h6>
+                    <p>	<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=Panakkad%20Pookkoya%20Thangal%20Memorial%20Higher%20Secondary%20School&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" aria-label="Panakkad Pookkoya Thangal Memorial Higher Secondary School"></iframe></p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Contact Us
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Kottukkara, Kondotty,<br>Malappuram - 673638<br></p>
+                    <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    ppmhss@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> +91 483 2711374</p>
+                    <p><i class="fas fa-print me-3"></i> +91 483 2714174</p>
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+            <!-- Section: Links  -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            Copyright © 2022
+            <a class="text-reset fw-bold" href="#"> PPMHSS KOTTUKKARA</a>
+
+            </div>
+
+            <a class="text-muted fw-bold" href="mailto:developer.safaf@gmail.com"> developer.safaf@gmail.com <i class="fas fa fa-envelope me-3"></i></a> - zafe ltd <i class="fas fa-gem me-3"></i>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer section ends -->
+
+        <!-- navigation-top-button -->
+        <div class="top-button">
+            <a href="#header" id="topBtn" onclick="topFunction()"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <!-- navigation-top-button ends -->
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- font-icons -->
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!-- lightbox-gallery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <!-- Counts JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
